@@ -1,0 +1,107 @@
+.emploee__page__div {
+  width: 100%;
+}
+
+.emploee__page__div form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 873px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 70px 150px;
+  padding-bottom: 100px;
+  width: 80%;
+  border-radius: 18px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.emploee__page__div form input {
+  width: 100%;
+}
+form .first_inputs {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+form .first_inputs div {
+  width: 100%;
+}
+
+form input,
+select {
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+}
+form label {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+}
+form input {
+  margin-top: 5px;
+  outline: 1px solid #8ac0e2;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form .selection select {
+  background-color: #ebebeb;
+  padding: 10px;
+  font-weight: 900;
+  line-height: 22px;
+  font-size: 17px;
+  width: 100%;
+  appearance: none;
+  outline: none;
+}
+
+form .next__btn {
+  padding: 18px 40px;
+  width: 176px;
+  position: absolute;
+  right: 160px;
+  margin-top: 100px;
+  bottom: 44px;
+  border-radius: 8px;
+  background-color: #62a1eb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.selection {
+  position: relative;
+}
+
+.custom__arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  width: 3rem;
+  pointer-events: none;
+}
+.custom__arrow::before,
+.custom__arrow::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom__arrow::before {
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.5rem solid black;
+  opacity: 0.6;
+}
+
