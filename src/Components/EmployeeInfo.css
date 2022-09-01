@@ -23,7 +23,7 @@
 form .first_inputs {
   display: flex;
   width: 100%;
-  gap: 2rem;
+  gap: 3rem;
 }
 form .first_inputs div {
   width: 100%;
@@ -104,4 +104,5 @@ form .next__btn {
   border-top: 0.5rem solid black;
   opacity: 0.6;
 }
+
 

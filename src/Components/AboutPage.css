@@ -49,12 +49,10 @@ form .back__btn {
 .name__brand {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
-
   width: 100%;
-  gap: 2rem;
+  gap: 3rem;
 }
+
 .name__brand div {
   width: 50%;
 }
@@ -198,6 +196,43 @@ form .save__btn {
 }
 .price__date {
   display: flex;
-  align-items: center;
-  gap: 4rem;
+  width: 100%;
+  gap: 3rem;
+}
+form .price__date div {
+  width: 100%;
+}
+
+.money_icon {
+  position: absolute;
+  top: 46px;
+  right: 8px;
+  width: 18px;
+  height: 19px;
+}
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 450px;
+  position: relative;
+  
+}
+.image-contaier{
+  width: 90%;
+  
+}
+.image-contaier img{
+  max-width: 100%;
+  max-height: 400px;
+}
+.radio__2 div {
+  width: 60%;
+}
+.radio div,.radio__2 div{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.radio__2 image {
+  display: fixed;
 }

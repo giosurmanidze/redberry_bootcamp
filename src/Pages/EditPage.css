@@ -42,3 +42,13 @@
   opacity: .7;
   border-radius: 5px;
 }
+.active__status {
+   font-size: 20px;
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   color: #232323;
+   font-weight: 700;
+
+}
