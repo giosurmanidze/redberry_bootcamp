@@ -1,0 +1,33 @@
+.parent__div {
+    width: 100%;
+
+}
+.child__div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.child__div div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
+
+
+}
+.child__div div input {
+    outline: none;
+    width: 20px;
+height: 20px;
+
+}
+.parent__div legend {
+    font-size: 18px;
+    font-weight:700;
+}
+
+.child__div div label {
+    font-size: 16px;
+    font-weight: 400;
+}

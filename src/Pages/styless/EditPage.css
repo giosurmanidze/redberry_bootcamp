@@ -1,0 +1,33 @@
+.main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+.form__step {
+  display: flex;
+  gap: 2rem;
+  margin-top: -30px;
+  font-size: 19px;
+  position: relative;
+  width: 100%;
+  
+}
+.logo__bellow {
+  width: 50px;
+  margin-top:67px;
+  margin-bottom: 30px;
+}
+.form__step a {
+  color: #232323;
+ font-weight: 700;
+ font-size: 20px;
+}
+
+
+.active {
+  color: #232323;
+}

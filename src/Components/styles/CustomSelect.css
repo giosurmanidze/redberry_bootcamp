@@ -1,0 +1,46 @@
+.main__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    position: relative;
+    background: #EBEBEB;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Helvetica Neue;
+}
+
+.main__div p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.select__box {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 100;
+    list-style: none;
+    cursor: pointer;
+    right: 1px;
+}
+.select__box li {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.select__box li:hover {
+    background: #E7F0F8;
+}
+
+.main__div button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 60px;
+}

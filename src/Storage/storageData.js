@@ -8,9 +8,3 @@ export const get_details_From_storage = () => {
 };
 
 
-export const saveStep = () => {
-    const data = sessionStorage.getItem("STEP");
-    if (data) {
-      return data;
-    }
-  };
